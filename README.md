@@ -4,6 +4,8 @@ SauceDemo Automation Testing Framework
 This project is a Selenium automation framework built to test the SauceDemo web application.  
 It follows industry best practices using Java, TestNG, and Page Object Model (POM).
 
+<img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/5d146b1d-2c0b-4633-ab8a-0df31791e15c" />
+
 🛠 Tech Stack
 - Java
 - Selenium WebDriver

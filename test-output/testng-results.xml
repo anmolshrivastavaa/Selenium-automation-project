@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-31T13:27:17 IST" name="SauceDemo Automation Suite" finished-at="2026-01-31T13:28:09 IST" duration-ms="51929">
+    <groups>
+    </groups>
+    <test started-at="2026-01-31T13:27:17 IST" name="Regression Test Suite" finished-at="2026-01-31T13:28:09 IST" duration-ms="51929">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:16 IST" name="startReport" finished-at="2026-01-31T13:27:17 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:17 IST" name="setup" finished-at="2026-01-31T13:27:19 IST" duration-ms="2264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.emptyCredentialsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyCredentialsTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:19 IST" name="emptyCredentialsTest" finished-at="2026-01-31T13:27:20 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialsTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:20 IST" name="tearDown" finished-at="2026-01-31T13:27:20 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyCredentialsTest status=SUCCESS method=LoginTests.emptyCredentialsTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:20 IST" name="setup" finished-at="2026-01-31T13:27:21 IST" duration-ms="1235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.emptyPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyPasswordTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:21 IST" name="emptyPasswordTest" finished-at="2026-01-31T13:27:22 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:22 IST" name="tearDown" finished-at="2026-01-31T13:27:22 IST" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyPasswordTest status=SUCCESS method=LoginTests.emptyPasswordTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:22 IST" name="setup" finished-at="2026-01-31T13:27:24 IST" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.emptyUsernameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyUsernameTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:24 IST" name="emptyUsernameTest" finished-at="2026-01-31T13:27:24 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsernameTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:24 IST" name="tearDown" finished-at="2026-01-31T13:27:25 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUsernameTest status=SUCCESS method=LoginTests.emptyUsernameTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:25 IST" name="setup" finished-at="2026-01-31T13:27:26 IST" duration-ms="1252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.invalidPasswordTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPasswordTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:26 IST" name="invalidPasswordTest" finished-at="2026-01-31T13:27:27 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:27 IST" name="tearDown" finished-at="2026-01-31T13:27:27 IST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPasswordTest status=SUCCESS method=LoginTests.invalidPasswordTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:27 IST" name="setup" finished-at="2026-01-31T13:27:28 IST" duration-ms="1278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.invalidUsernameTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsernameTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:28 IST" name="invalidUsernameTest" finished-at="2026-01-31T13:27:29 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsernameTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:29 IST" name="tearDown" finished-at="2026-01-31T13:27:29 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUsernameTest status=SUCCESS method=LoginTests.invalidUsernameTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:29 IST" name="setup" finished-at="2026-01-31T13:27:30 IST" duration-ms="1256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.lockedUserTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lockedUserTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:30 IST" name="lockedUserTest" finished-at="2026-01-31T13:27:31 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:31 IST" name="tearDown" finished-at="2026-01-31T13:27:31 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=lockedUserTest status=SUCCESS method=LoginTests.lockedUserTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:31 IST" name="setup" finished-at="2026-01-31T13:27:33 IST" duration-ms="1343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTests.validLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:33 IST" name="validLoginTest" finished-at="2026-01-31T13:27:34 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:27:34 IST" name="tearDown" finished-at="2026-01-31T13:27:34 IST" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTests.validLoginTest()[pri:0, instance:tests.LoginTests@5e0e82ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.LoginTests@5e0e82ae]" started-at="2026-01-31T13:28:09 IST" name="endReport" finished-at="2026-01-31T13:28:09 IST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.FilterTests">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:27:59 IST" name="setup" finished-at="2026-01-31T13:28:00 IST" duration-ms="1726" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FilterTests.filterNameAToZTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterNameAToZTest()[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:00 IST" name="filterNameAToZTest" finished-at="2026-01-31T13:28:01 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterNameAToZTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:01 IST" name="tearDown" finished-at="2026-01-31T13:28:01 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterNameAToZTest status=SUCCESS method=FilterTests.filterNameAToZTest()[pri:0, instance:tests.FilterTests@175c2241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:01 IST" name="setup" finished-at="2026-01-31T13:28:03 IST" duration-ms="1236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FilterTests.filterNameZToATest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterNameZToATest()[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:03 IST" name="filterNameZToATest" finished-at="2026-01-31T13:28:04 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterNameZToATest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:04 IST" name="tearDown" finished-at="2026-01-31T13:28:04 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterNameZToATest status=SUCCESS method=FilterTests.filterNameZToATest()[pri:0, instance:tests.FilterTests@175c2241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:04 IST" name="setup" finished-at="2026-01-31T13:28:05 IST" duration-ms="1242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FilterTests.filterPriceHighToLowTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterPriceHighToLowTest()[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:05 IST" name="filterPriceHighToLowTest" finished-at="2026-01-31T13:28:06 IST" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPriceHighToLowTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:06 IST" name="tearDown" finished-at="2026-01-31T13:28:06 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterPriceHighToLowTest status=SUCCESS method=FilterTests.filterPriceHighToLowTest()[pri:0, instance:tests.FilterTests@175c2241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:06 IST" name="setup" finished-at="2026-01-31T13:28:07 IST" duration-ms="1205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FilterTests.filterPriceLowToHighTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="filterPriceLowToHighTest()[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:07 IST" name="filterPriceLowToHighTest" finished-at="2026-01-31T13:28:08 IST" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPriceLowToHighTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FilterTests@175c2241]" started-at="2026-01-31T13:28:08 IST" name="tearDown" finished-at="2026-01-31T13:28:09 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filterPriceLowToHighTest status=SUCCESS method=FilterTests.filterPriceLowToHighTest()[pri:0, instance:tests.FilterTests@175c2241] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FilterTests -->
+      <class name="tests.NavigationTests">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:44 IST" name="setup" finished-at="2026-01-31T13:27:45 IST" duration-ms="1302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NavigationTests.aboutPageTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="aboutPageTest()[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:45 IST" name="aboutPageTest" finished-at="2026-01-31T13:27:51 IST" duration-ms="5587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutPageTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:51 IST" name="tearDown" finished-at="2026-01-31T13:27:51 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutPageTest status=SUCCESS method=NavigationTests.aboutPageTest()[pri:0, instance:tests.NavigationTests@62379589] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:51 IST" name="setup" finished-at="2026-01-31T13:27:52 IST" duration-ms="1329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NavigationTests.logoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:52 IST" name="logoutTest" finished-at="2026-01-31T13:27:54 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:54 IST" name="tearDown" finished-at="2026-01-31T13:27:54 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=NavigationTests.logoutTest()[pri:0, instance:tests.NavigationTests@62379589] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:54 IST" name="setup" finished-at="2026-01-31T13:27:55 IST" duration-ms="1327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.NavigationTests.navigationMenuOpensTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="navigationMenuOpensTest()[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:55 IST" name="navigationMenuOpensTest" finished-at="2026-01-31T13:27:56 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationMenuOpensTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.NavigationTests@62379589]" started-at="2026-01-31T13:27:56 IST" name="tearDown" finished-at="2026-01-31T13:27:56 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationMenuOpensTest status=SUCCESS method=NavigationTests.navigationMenuOpensTest()[pri:0, instance:tests.NavigationTests@62379589] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NavigationTests -->
+      <class name="tests.FooterTests">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.FooterTests@4afcd809]" started-at="2026-01-31T13:27:56 IST" name="setup" finished-at="2026-01-31T13:27:58 IST" duration-ms="1264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FooterTests.footerLinksClickableTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="footerLinksClickableTest()[pri:0, instance:tests.FooterTests@4afcd809]" started-at="2026-01-31T13:27:58 IST" name="footerLinksClickableTest" finished-at="2026-01-31T13:27:58 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLinksClickableTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.FooterTests@4afcd809]" started-at="2026-01-31T13:27:58 IST" name="tearDown" finished-at="2026-01-31T13:27:59 IST" duration-ms="200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=footerLinksClickableTest status=SUCCESS method=FooterTests.footerLinksClickableTest()[pri:0, instance:tests.FooterTests@4afcd809] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FooterTests -->
+      <class name="tests.ProductTests">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:34 IST" name="setup" finished-at="2026-01-31T13:27:35 IST" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductTests.addProductToCartTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProductToCartTest()[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:35 IST" name="addProductToCartTest" finished-at="2026-01-31T13:27:36 IST" duration-ms="1013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:36 IST" name="tearDown" finished-at="2026-01-31T13:27:36 IST" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductToCartTest status=SUCCESS method=ProductTests.addProductToCartTest()[pri:0, instance:tests.ProductTests@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:36 IST" name="setup" finished-at="2026-01-31T13:27:38 IST" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductTests.cartNavigationTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="cartNavigationTest()[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:38 IST" name="cartNavigationTest" finished-at="2026-01-31T13:27:39 IST" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartNavigationTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:39 IST" name="tearDown" finished-at="2026-01-31T13:27:39 IST" duration-ms="268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartNavigationTest status=SUCCESS method=ProductTests.cartNavigationTest()[pri:0, instance:tests.ProductTests@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:39 IST" name="setup" finished-at="2026-01-31T13:27:40 IST" duration-ms="1255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductTests.productsPageDisplayedTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productsPageDisplayedTest()[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:40 IST" name="productsPageDisplayedTest" finished-at="2026-01-31T13:27:41 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsPageDisplayedTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:41 IST" name="tearDown" finished-at="2026-01-31T13:27:41 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productsPageDisplayedTest status=SUCCESS method=ProductTests.productsPageDisplayedTest()[pri:0, instance:tests.ProductTests@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:41 IST" name="setup" finished-at="2026-01-31T13:27:43 IST" duration-ms="1253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ProductTests.removeProductFromCartTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeProductFromCartTest()[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:43 IST" name="removeProductFromCartTest" finished-at="2026-01-31T13:27:44 IST" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCartTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.ProductTests@3754a4bf]" started-at="2026-01-31T13:27:44 IST" name="tearDown" finished-at="2026-01-31T13:27:44 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeProductFromCartTest status=SUCCESS method=ProductTests.removeProductFromCartTest()[pri:0, instance:tests.ProductTests@3754a4bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductTests -->
+    </test> <!-- Regression Test Suite -->
+  </suite> <!-- SauceDemo Automation Suite -->
+</testng-results>

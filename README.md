@@ -15,7 +15,7 @@ It follows industry best practices using Java, TestNG, and Page Object Model (PO
 - Extent Reports
 - Git
 
-📂 Project Structure
+📂 Project Structure     
 src/test/java
 ├── base
 ├── pages
